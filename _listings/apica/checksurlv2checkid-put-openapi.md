@@ -6,12 +6,14 @@ info:
   title: Checks URL Checks URL
   version: 1.0.0
   description: Updates a URL check (version 2).
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/url ':
     ' post ':
@@ -55,6 +57,32 @@ paths:
       description: Updates a URL check (version 2).
       operationId: -checks-url-v2-checkid-
       x-api-path-slug: checksurlv2checkid-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Checks
+      - URL
+  '/checks/url/locations ':
+    ' get ':
+      summary: Checks URL Locations
+      description: Gets a list of all locations that are available for URL (legacy
+        version 1) checks.
+      operationId: -checks-url-locations-
+      x-api-path-slug: checksurllocations-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Checks
+      - URL
+  '/checks/url-v2/locations ':
+    ' get ':
+      summary: Checks URL Locations
+      description: Gets a list of all locations that are available for URL (version
+        2) checks.
+      operationId: -checks-url-v2-locations-
+      x-api-path-slug: checksurlv2locations-get
       responses:
         200:
           description: OK

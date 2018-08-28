@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
@@ -49,6 +49,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-openapi.md
+- name: GoToTraining API - Get Start Url
+  x-api-slug: organizersorganizerkeytrainingstrainingkeystarturl-get
+  description: Get start url.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeystarturl-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeystarturl-get-openapi.md
+- name: GoToTraining API - Get Start Url
+  x-api-slug: organizersorganizerkeytrainingstrainingkeystarturl-get
+  description: Get start url.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeystarturl-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeystarturl-get-openapi.md
 - name: GoToTraining API - Get Start Url
   x-api-slug: organizersorganizerkeytrainingstrainingkeystarturl-get
   description: Get start url.

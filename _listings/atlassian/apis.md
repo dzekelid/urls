@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Jira Cloud REST API - Set base url
+  x-api-slug: api2settingsbaseurl-put
+  description: Sets the base URL that is configured for this Jira instance.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/atlassian/api2settingsbaseurl-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/atlassian/api2settingsbaseurl-put-openapi.md
 - name: Jira Cloud REST API - Set base url
   x-api-slug: api2settingsbaseurl-put
   description: Sets the base URL that is configured for this Jira instance.

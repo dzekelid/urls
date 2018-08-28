@@ -7,12 +7,14 @@ info:
   version: 1.0.0
   description: Gets a list of all locations that are available for URL (version 2)
     checks.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/checks/url ':
     ' post ':

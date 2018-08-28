@@ -7,11 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Checks URL - Checks URL
+  x-api-slug: checksurl-post
+  description: Creates a new URL check (legacy version 1).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurl-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurl-post-openapi.md
+- name: Checks URL - Checks URL
+  x-api-slug: checksurlv2-post
+  description: Creates a new URL check (version 2).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2-post-openapi.md
+- name: Checks URL - Checks URL
+  x-api-slug: checksurlcheckid-put
+  description: Updates a URL check (legacy version 1).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlcheckid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlcheckid-put-openapi.md
+- name: Checks URL - Checks URL
+  x-api-slug: checksurlv2checkid-put
+  description: Updates a URL check (version 2).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2checkid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2checkid-put-openapi.md
+- name: Checks URL - Checks URL Locations
+  x-api-slug: checksurllocations-get
+  description: Gets a list of all locations that are available for URL (legacy version
+    1) checks.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurllocations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurllocations-get-openapi.md
+- name: Checks URL - Checks URL Locations
+  x-api-slug: checksurlv2locations-get
+  description: Gets a list of all locations that are available for URL (version 2)
+    checks.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2locations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/apica/checksurlv2locations-get-openapi.md
 - name: Checks URL - Checks URL
   x-api-slug: checksurl-post
   description: Creates a new URL check (legacy version 1).

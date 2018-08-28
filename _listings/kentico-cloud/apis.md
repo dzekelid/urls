@@ -8,11 +8,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kent
 x-kinRank: "7"
 x-alexaRank: "369033"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/kentico-cloud/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Kentico Cloud - Getting items by localized URL slug
+  x-api-slug: get
+  description: "Get a *Home* content item whose URL slug in Spanish is *inicio* by
+    using the following parameters:\n\n* `language=es-ES` \u2013 specifies the codename
+    of the requested language.\n* `system.type=home` \u2013 filters content items
+    by their content type.\n* `elements.url_pattern=inicio` \u2013 filters content
+    items by a value of a specific content element.\n\nSee [Getting items by localized
+    URL slug](https://developer.kenticocloud.com/docs/localization#section-getting-items-by-localized-url-slug)
+    for more details."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/kentico-cloud/get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/kentico-cloud/get-openapi.md
 - name: Kentico Cloud - Getting items by localized URL slug
   x-api-slug: get
   description: "Get a *Home* content item whose URL slug in Spanish is *inicio* by

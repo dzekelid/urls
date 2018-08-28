@@ -10,11 +10,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/aws-appstream/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS AppStream 2.0 API - Create Streaming URL
+  x-api-slug: actioncreatestreamingurl-get
+  description: Creates a URL to start an AppStream 2.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png
+  humanURL: https://aws.amazon.com/appstream2/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/aws-appstream/actioncreatestreamingurl-get-openapi.md
+- name: AWS AppStream 2.0 API - Create Streaming URL
+  x-api-slug: actioncreatestreamingurl-get
+  description: Creates a URL to start an AppStream 2.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appstream2_try_it_now_2_big.png
+  humanURL: https://aws.amazon.com/appstream2/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/aws-appstream/actioncreatestreamingurl-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.api.gateway.api.gallery.streamdata.io

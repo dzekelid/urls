@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dezrez.Rezi.Client.Api - Returns a URL that will start the process of authorisation
+    with the external provider - normally using the OAuth1/2 protocol suite.
+  x-api-slug: apiexternalprovider-get
+  description: Returns a url that will start the process of authorisation with the
+    external provider - normally using the oauth1/2 protocol suite..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dezrez/apiexternalprovider-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dezrez/apiexternalprovider-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Returns a URL that will start the process of authorisation
     with the external provider - normally using the OAuth1/2 protocol suite.
   x-api-slug: apiexternalprovider-get

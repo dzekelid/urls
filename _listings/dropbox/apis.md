@@ -7,11 +7,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: URLs
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Dropbox Core API v1 - Save a file from the specified URL into Dropbox.
+  x-api-slug: save-urlrootpath-post
+  description: |-
+    Save a file from the specified URL into Dropbox.
+
+    If the given path already exists, the file will be renamed to avoid the conflict (e.g. `myfile (1).txt`).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
+  humanURL: http://dropbox.com
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dropbox/save-urlrootpath-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/urls/master/_listings/dropbox/save-urlrootpath-post-openapi.md
 - name: Dropbox Core API v1 - Save a file from the specified URL into Dropbox.
   x-api-slug: save-urlrootpath-post
   description: |-
